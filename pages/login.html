@@ -7,11 +7,12 @@
     <meta name="description" content="Cine Aurora - Login" />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/components/login.css" />
   </head>
 
   <body>
     <header>
-      <div>
+      <div class="header-logo">
         <h1>Cine Aurora</h1>
         <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
       </div>
@@ -24,19 +25,26 @@
       </div>
     </header>
     <main>
-      <form action="perfil.html">
+      <div class="container-imagen">
+        <img src="../assets/img/cine.jpg" alt="login-image" />
+      </div>
+      <div class="login-main-container">
+      <section class="login-main">
+      <form action="perfil.html" class="login-form">
         <h2>Acceso Clientes</h2>
-        <div>
+        <div class="login-form-item">
           <label>Email</label>
           <input type="email" required />
         </div>
-        <div>
+        <div class="login-form-item">
           <label>Contraseña</label>
           <input type="password" required />
         </div>
-        <button type="submit">Ingresar</button>
+        <button class="boton-formulario" type="submit">Ingresar</button>
         <p>¿No eres miembro? <a href="registro.html">Regístrate</a></p>
       </form>
+    </section>
+  </div>
     </main>
 
     <footer>

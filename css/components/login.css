@@ -1,0 +1,110 @@
+header {
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+padding-top: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-main {
+    background-color: var(--color-fondo);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    background-color: var(--color-superficie);
+    gap: 20px;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    border: 3px solid var(--color-primario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.login-form-item {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-item label {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-texto);
+    
+}
+
+.login-form-item input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--color-primario);
+    border-radius: 5px;
+}
+
+.boton-formulario {
+    background-color: var(--color-secundario);
+    color: var(--color-texto);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+
+
+.login-main-container {
+    background-color: var(--color-fondo);
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-main-container h2 {
+    color: var(--color-texto);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.container-imagen {
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
