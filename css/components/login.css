@@ -1,24 +1,7 @@
-header {
-    background-color: gold;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    
-}
 
-.header-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 main {
 padding-top: 50px;
-    background-color: red;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -66,7 +49,7 @@ padding-top: 50px;
 .login-form-item input {
     width: 100%;
     padding: 10px;
-    border: 2px solid var(--color-primario);
+    border: 1px solid var(--color-primario);
     border-radius: 5px;
 }
 
@@ -76,8 +59,15 @@ padding-top: 50px;
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
-    cursor: pointer; }
+    cursor: pointer; 
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;}
 
+    .boton-formulario:hover {
+    scale: 1.05;
+    transition: all 0.3s ease;   
+    }
 
 .login-main-container {
     background-color: var(--color-fondo);
@@ -108,3 +98,21 @@ padding-top: 50px;
     height: 100%;
     object-fit: cover;
 }
+
+.miembro{
+    color: var(--color-texto);  
+    opacity: 90%;
+    
+}
+
+.miembro a{
+    text-decoration: none;
+    color: var(--color-texto);
+    transition: all 0.3s ease;
+
+}
+
+.miembro a:hover{
+    text-decoration:underline 2px solid var(--color-primario);
+}
+

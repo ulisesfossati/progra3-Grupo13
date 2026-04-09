@@ -8,20 +8,25 @@
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/components/login.css" />
+    <link rel="stylesheet" href="../css/components/footer.css">
+    <link rel="stylesheet" href="../css/components/header.css">
   </head>
 
   <body>
-    <header>
-      <div class="header-logo">
-        <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
-      </div>
-      <div>
-        <nav>
-          <a href="../index.html">Inicio</a>
+    <header class="header">
+      <div class="header-container">
+        
+        <div class="header-logo">
+          <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+          <h1>Cine Aurora</h1>
+        </div>
+    
+        <nav class="nav">
+          <a href="../index.html" class="active">Inicio</a>
           <a href="./estrenos.html">Próximos estrenos</a>
-          <a href="../index.html">Volver</a>
+          <a href="../index.html" class="volver">Volver</a>
         </nav>
+    
       </div>
     </header>
     <main>
@@ -41,14 +46,17 @@
           <input type="password" required />
         </div>
         <button class="boton-formulario" type="submit">Ingresar</button>
-        <p>¿No eres miembro? <a href="registro.html">Regístrate</a></p>
+        <p class="miembro" >¿No eres miembro? <a href="registro.html">Regístrate</a></p>
       </form>
     </section>
   </div>
     </main>
 
-    <footer>
-      <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2026 Cine Aurora</p>
+        <p class="footer-sub">Todos los derechos reservados</p>
+      </div>
     </footer>
   </body>
 </html>
