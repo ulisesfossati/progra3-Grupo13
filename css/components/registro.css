@@ -13,16 +13,47 @@ body{
     color: #ffffff ;
 }
 
-header{
-    background-color: #1f1f1f;
-    text-decoration: none;
+header {
+
+    background-color: #1f1f1f; 
+
+
+    display: flex;
+    justify-content: space-between; /* separa izquierda y derecha */
+    align-items: center; /* alinea verticalmente */
+
+    padding: 10px 20px;
 }
 
 h1{
-    background-color: #00b4d8;
+    
     color: #ffffff;
 }
 
-.navegacion a{
+.navegacion a {
     text-decoration: none;
+    color: #b3b3b3;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navegacion a:hover {
+    color: #00b4d8; /* para cuando le paso x arriba se ponga celeste */
+}
+
+header div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.botonregistro:hover{
+    scale: 1.5em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center
 }
