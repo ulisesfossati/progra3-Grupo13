@@ -1,14 +1,5 @@
-@import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
-@import url(./components/login.css);
+@import url(./components/poster.css);
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* Paletas de colores que pueden usar: */
-
-/* Paleta 3 (activa — Netflix / cine oscuro) */
 :root {
   --color-fondo: #141414;
   --color-superficie: #1f1f1f;
@@ -16,5 +7,25 @@
   --color-secundario: #00b4d8;
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
+
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-m: 16px;
+  --space-l: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
