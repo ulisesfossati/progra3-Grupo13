@@ -1,118 +1,117 @@
 
 
 main {
-padding-top: 50px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 100vh;
-}
-
-.login-main {
-    background-color: var(--color-fondo);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-form {
-    background-color: var(--color-superficie);
-    gap: 20px;
-    width: 90%;
-    height: 90%;
-    border-radius: 10px;
-    border: 3px solid var(--color-primario);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-}
-
-.login-form-item {
-    gap: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-form-item label {
-    font-size: 16px;
-    font-weight: bold;
-    color: var(--color-texto);
-    
-}
-
-.login-form-item input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid var(--color-primario);
-    border-radius: 5px;
-}
-
-.boton-formulario {
-    background-color: var(--color-secundario);
-    color: var(--color-texto);
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer; 
-    font-size: 16px;
-    font-weight: bold;
-    transition: all 0.3s ease;}
-
-    .boton-formulario:hover {
-    scale: 1.05;
-    transition: all 0.3s ease;   
+    padding-top: 50px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        height: 100vh;
     }
-
-.login-main-container {
-    background-color: var(--color-fondo);
-    width: 50%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 100vh;
-}
-
-.login-main-container h2 {
-    color: var(--color-texto);
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-}
-.container-imagen {
-    background-color: pink;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container-imagen img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.miembro{
-    color: var(--color-texto);  
-    opacity: 90%;
     
-}
-
-.miembro a{
-    text-decoration: none;
-    color: var(--color-texto);
-    transition: all 0.3s ease;
-
-}
-
-.miembro a:hover{
-    text-decoration:underline 2px solid var(--color-primario);
-}
-
+    .login-main {
+        background-color: var(--color-fondo);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .login-form {
+        background-color: var(--color-superficie);
+        gap: 20px;
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+        border: 3px solid var(--color-primario);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    .login-form-item {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .login-form-item label {
+        font-size: 16px;
+        font-weight: bold;
+        color: var(--color-texto);
+        
+    }
+    
+    .login-form-item input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid var(--color-primario);
+        border-radius: 5px;
+    }
+    
+    .boton-formulario {
+        background-color: var(--color-secundario);
+        color: var(--color-texto);
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer; 
+        font-size: 16px;
+        font-weight: bold;
+        transition: all 0.3s ease;}
+    
+        .boton-formulario:hover {
+        scale: 1.05;
+        transition: all 0.3s ease;   
+        }
+    
+    .login-main-container {
+        background-color: var(--color-fondo);
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .login-main-container h2 {
+        color: var(--color-texto);
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .container-imagen {
+        background-color: pink;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .container-imagen img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .miembro{
+        color: var(--color-texto);  
+        opacity: 90%;
+        
+    }
+    
+    .miembro a{
+        text-decoration: none;
+        color: var(--color-texto);
+        transition: all 0.3s ease;
+    
+    }
+    
+    .miembro a:hover{
+        text-decoration:underline 2px solid var(--color-primario);
+    }
