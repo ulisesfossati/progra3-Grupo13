@@ -1,0 +1,8 @@
+.index-main{
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+.titulo-pelicula{
+    color: var(--color-texto);
+    margin: 15px 0;
+}

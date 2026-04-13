@@ -7,35 +7,41 @@
     <meta name="description" content="Cine Aurora - Tu destino para disfrutar del mejor cine en la ciudad. Descubre las últimas películas, compra tus entradas y vive la experiencia cinematográfica al máximo." />
     <link rel="icon" href="./assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/components/index.css" />    
+    <link rel="stylesheet" href="./css/components/grids.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/components/header.css">
   </head>
 
   <body>
-    <header>
-      <div>
-        <h1>Cine Aurora</h1>
-        <img src="./assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
-      </div>
-      <div>
-        <nav>
-          <a href="#">Inicio</a>
-          <a href="./pages/estrenos.html">Próximos estrenos</a>
-          <a href="./pages/login.html">Mi perfil</a>
+    <header class="header">
+      <div class="header-container">
+        
+        <div class="header-logo">
+          <img src="./assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+          <h1>Cine Aurora</h1>
+        </div>
+    
+        <nav class="nav">
+          <a href="index.html" class="active">Inicio</a>
+          <a href="./assets/pages/estrenos.html">Próximos estrenos</a>
+          <a href="index.html" class="volver">Volver</a>
         </nav>
       </div>
     </header>
 
-    <main>
-      <section>
-        <h2>Películas en cartelera</h2>
+    <main class="index-main">
+      <section class="index-main-grid">
+        <h2 class="index-main-titulo">Películas en cartelera</h2>
 
-        <div>
-          <div>
+        <div class="index-cartelera-grid">
+          <div class="index-pelicula-carta">
             <img src="./assets/img/poster-1.png" alt="" />
-            <h3>Nombre película</h3>
-            <p>Género</p>
-            <a href="./pages/detalle.html">Ver más</a>
+            <h3 class="titulo-pelicula">Nombre película</h3>
+            <p class="titulo-pelicula">Género</p>
+            <a href="./pages/detalle.html" class="boton-ver-mas">Ver más</a>
             <a
-            href="#"
+            href="#" class="boton-comprar"
             onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
             "
@@ -43,27 +49,13 @@
           >
           </div>
 
-          <div>
+          <div class="index-pelicula-carta">
             <img src="./assets/img/poster-1.png" alt="" />
-            <h3>Nombre película</h3>
-            <p>Género</p>
-            <a href="./pages/detalle.html">Ver más</a>
+            <h3 class="titulo-pelicula">Nombre película</h3>
+            <p class="titulo-pelicula">Género</p>
+            <a href="./pages/detalle.html" class="boton-ver-mas">Ver más</a>
             <a
-            href="#"
-            onclick="
-              alert('Lo sentimos, en este momento no funciona nuestro sistema')
-            "
-            >Comprar entradas</a
-          >
-          </div>ref="pages/pelicula.html">Ver más</a>
-
-          <div>
-            <img src="./assets/img/poster-1.png" alt="" />
-            <h3>Nombre película</h3>
-            <p>Género</p>
-            <a href="./pages/detalle.html">Ver más</a>
-            <a
-            href="#"
+            href="#" class="boton-comprar"
             onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
             "
@@ -71,13 +63,13 @@
           >
           </div>
 
-          <div>
+          <div class="index-pelicula-carta">
             <img src="./assets/img/poster-1.png" alt="" />
-            <h3>Nombre película</h3>
-            <p>Género</p>
-            <a href="./pages/detalle.html">Ver más</a>
+            <h3 class="titulo-pelicula">Nombre película</h3>
+            <p class="titulo-pelicula">Género</p>
+            <a href="./pages/detalle.html" class="boton-ver-mas">Ver más</a>
             <a
-            href="#"
+            href="#" class="boton-comprar"
             onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
             "
@@ -85,13 +77,13 @@
           >
           </div>
 
-          <div>
+          <div class="index-pelicula-carta">
             <img src="./assets/img/poster-1.png" alt="" />
-            <h3>Nombre película</h3>
-            <p>Género</p>
-            <a href="./pages/detalle.html">Ver más</a>
+            <h3 class="titulo-pelicula">Nombre película</h3>
+            <p class="titulo-pelicula">Género</p>
+            <a href="./pages/detalle.html" class="boton-ver-mas">Ver más</a>
             <a
-            href="#"
+            href="#" class="boton-comprar "
             onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
             "
@@ -99,13 +91,27 @@
           >
           </div>
 
-          <div>
+          <div class="index-pelicula-carta">
             <img src="./assets/img/poster-1.png" alt="" />
-            <h3>Nombre película</h3>
-            <p>Género</p>
-            <a href="./pages/detalle.html">Ver más</a>
+            <h3 class="titulo-pelicula">Nombre película</h3>
+            <p class="titulo-pelicula">Género</p>
+            <a href="./pages/detalle.html" class="boton-ver-mas">Ver más</a>
             <a
-            href="#"
+            href="#" class="boton-comprar"
+            onclick="
+              alert('Lo sentimos, en este momento no funciona nuestro sistema')
+            "
+            >Comprar entradas</a
+          >
+          </div>
+
+          <div class="index-pelicula-carta">
+            <img src="./assets/img/poster-1.png" alt="" />
+            <h3 class="titulo-pelicula">Nombre película</h3>
+            <p class="titulo-pelicula" >Género</p>
+            <a href="./pages/detalle.html" class="boton-ver-mas">Ver más</a>
+            <a 
+            href="#" class="boton-comprar"
             onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
             "
@@ -116,8 +122,11 @@
       </section>
     </main>
 
-    <footer>
-      <p> &copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-    </footer>
+      <footer class="footer">
+        <div class="footer-container">
+          <p>&copy; 2026 Cine Aurora</p>
+          <p class="footer-sub">Todos los derechos reservados</p>
+        </div>
+      </footer>
   </body>
 </html>
