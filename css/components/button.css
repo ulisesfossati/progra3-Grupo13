@@ -1,0 +1,25 @@
+.boton-ver-mas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-primario);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.boton-ver-mas:hover {
+    background-color: var(--color-superficie);
+}
+.boton-comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-secundario);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 4px;
+    transition: background-color 0.3s ease;
+}
+.boton-comprar:hover {
+    background-color: var(--color-superficie);
+}
