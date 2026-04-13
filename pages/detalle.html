@@ -7,23 +7,26 @@
     <meta name="description" content="Cine Aurora - Detalle de la película." />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/components/detalle.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
-      </div>
-      <div>
-        <nav>
-          <a href="../index.html">Inicio</a>
-          <a href="../pages/estrenos.html">Próximos estrenos</a>
-          <a href="../pages/login.html">Mi perfil</a>
+    <header class="header">
+      <div class="header-container">
+        
+        <div class="header-logo">
+          <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+          <h1>Cine Aurora</h1>
+        </div>
+    
+        <nav class="nav">
+          <a href="../index.html" class="active">Inicio</a>
+          <a href="./estrenos.html">Próximos estrenos</a>
+          <a href="../index.html" class="volver">Volver</a>
         </nav>
+    
       </div>
     </header>
 
-    <main>
       <main class="contenedor-detalle">
     <section class="pelicula-layout">
         
@@ -75,12 +78,11 @@
 
     </section>
 </main>
-      
-    
-    </main>
-
-    <footer>
-      <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-    </footer>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2026 Cine Aurora</p>
+        <p class="footer-sub">Todos los derechos reservados</p>
+      </div>
+    </footer> 
   </body>
 </html>

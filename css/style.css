@@ -1,33 +1,21 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
+@import url(./components/header.css);
+@import url(./components/footer.css);
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Paletas de colores que pueden usar: */
 
-/* Paleta 1: */
-/*:root {
-  --color-fondo: #0f172a;
-  --color-superficie: #1e293b;
-  --color-primario: #e11d48;
-  --color-secundario: #f59e0b;
-  --color-texto: #f8fafc;
-  --color-texto-suave: #94a3b8;
-}*/
-
-/* Paleta 2: */
-/*:root {
-  --color-fondo: #fff8e7;
-  --color-superficie: #ffe8a3;
-  --color-primario: #e63946;
-  --color-secundario: #ffb703;
-  --color-texto: #1d3557;
-  --color-texto-suave: #457b9d;
-}*/
-
-/* Paleta 3: */
-/*:root {
+/* Paleta 3 (activa — Netflix / cine oscuro) */
+:root {
   --color-fondo: #141414;
   --color-superficie: #1f1f1f;
   --color-primario: #e50914;
   --color-secundario: #00b4d8;
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
-}*/
+}
+

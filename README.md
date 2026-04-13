@@ -1,7 +1,14 @@
-# Trabajo práctico N°2:
+# Trabajo Numero 2
+# 📌 Grupo 13
 
-- Flexbox
-- Grids
-- Media queries
-- Modularización CSS (import url(...))
-# progra3-borrador
+
+
+## 🌿 Ramas del proyecto
+
+- 🔹 **rama_fede** → [usuario](https://github.com/FedericoMarcenac)
+- 🔹 **rama_ulises** → [usuario](https://github.com/ulisesfossati)
+- 🔹 **rama_nacho** → [usuario](http://github.com/nachoalvarado78)
+- 🔹 **rama_gonza** → [usuario](https://github.com/Gon-arg)
+- 🔹 **rama_celi** → [usuario](https://github.com/CeliV)
+
+---

@@ -1,0 +1,110 @@
+
+.contenedor-detalle {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 50px;
+}
+
+
+.pelicula-layout {
+    display: flex;
+    gap: 40px;
+    padding: 32px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    color: #ffffff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.pelicula-poster {
+    flex: 0 0 350px;
+}
+
+.pelicula-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.pelicula-poster img:hover {
+    transform: scale(1.02);
+}
+
+
+.pelicula-datos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pelicula-titulo {
+    font-size: 2.8rem;
+    margin: 0;
+    color: #e50914; 
+}
+
+.pelicula-genero {
+    font-style: italic;
+    color: #cccccc;
+}
+
+.pelicula-sinopsis h3, 
+.horarios h3 {
+    margin-bottom: 8px;
+    color: #ffffff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 4px;
+}
+
+
+.pelicula-detalles-tecnicos p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+}
+
+
+.sistema-puntuacion {
+    margin: 10px 0;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 2.5rem;
+    color: #444;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: #ffd700; 
+}
+
+
+.tags-horarios {
+    display: flex;
+    gap: 12px;
+}
+
+.tag {
+    background-color: #333;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: 1px
+}
