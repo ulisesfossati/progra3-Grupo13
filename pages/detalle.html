@@ -7,85 +7,82 @@
     <meta name="description" content="Cine Aurora - Detalle de la película." />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/components/detalle.css" />
   </head>
   <body>
-    <header>
-      <div class="header-logo">
-        <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
-      </div>
-      <div class="header-nav">
-        <nav>
-          <a href="../index.html">Inicio</a>
+    <header class="header">
+      <div class="header-container">
+        
+        <div class="header-logo">
+          <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+          <h1>Cine Aurora</h1>
+        </div>
+    
+        <nav class="nav">
+          <a href="../index.html" class="active">Inicio</a>
           <a href="./estrenos.html">Próximos estrenos</a>
-          <a href="./login.html">Mi perfil</a>
+          <a href="../index.html" class="volver">Volver</a>
         </nav>
+    
       </div>
     </header>
 
-    <main>
-      <section>
-        <div>
-          <img src="../assets/img/poster-1.png" alt="Póster" />
+      <main class="contenedor-detalle">
+    <section class="pelicula-layout">
+        
+        <div class="pelicula-poster">
+            <img src="../assets/img/poster-1.png" alt="Póster de la película">
         </div>
-        <div>
-          <div>
-            <h1>Título</h1>
-            <h2>Lorem ipsum, dolor sit.</h2>
-          </div>
-          <div>
-            <h3>Sinopsis</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              ullam ipsum corporis quidem, assumenda magni officia recusandae.
-              Tenetur voluptatem architecto, dolores eius, deleniti quam
-              voluptatibus laboriosam ut recusandae animi quisquam!
-            </p>
-          </div>
-          <div>
-            <h3>Duración</h3>
-            <p>155 minutos</p>
-          </div>
 
-          <div>
-            <h3>Género</h3>
-            <p>Ciencia ficción</p>
-          </div>
+        <div class="pelicula-datos">
+            <h1 class="pelicula-titulo">Nombre de la Película</h1>
+            <p class="pelicula-genero">Género: Ciencia Ficción / Acción</p>
+            
+            <div class="pelicula-sinopsis">
+                <h3>Sinopsis</h3>
+                <p>
+                    Esta es una descripción genérica. Aquí irá el resumen de la película 
+                    seleccionada del catálogo de Cine Aurora.
+                </p>
+            </div>
 
-          <div>
-            <h3>Director</h3>
-            <p>John Doe</p>
-          </div>
+            <div class="pelicula-detalles-tecnicos">
+                <p><strong>Duración:</strong> 145 min</p>
+                <p><strong>Director:</strong> Christopher Nolan</p>
+                <p><strong>Clasificación:</strong> +13</p>
+            </div>
 
-          <div>
-            <h3>Clasificación</h3>
-            <p>+13</p>
-          </div>
-          <div>
-            <h3>Horarios:</h3>
-            <p>16:00</p>
-            <p>19:00</p>
-            <p>22:00</p>
-          </div>
-          <div>
-            <p>Puntuación: ★★★★☆</p>
-          </div>
-          <a
-            href="#"
-            onclick="
-              alert('Lo sentimos, en este momento no funciona nuestro sistema')
-            "
-            >Comprar entradas</a
-          >
+            <div class="sistema-puntuacion">
+              <p>Tu puntuación:</p>
+              <div class="rating">
+                <input type="radio" name="estrella" id="star5" value="5"><label for="star5">★</label>
+                <input type="radio" name="estrella" id="star4" value="4"><label for="star4">★</label>
+                <input type="radio" name="estrella" id="star3" value="3"><label for="star3">★</label>
+                <input type="radio" name="estrella" id="star2" value="2"><label for="star2">★</label>
+                <input type="radio" name="estrella" id="star1" value="1"><label for="star1">★</label>
+    </div>
+</div>
+                </div>
+                <div class="horarios">
+                    <h3>Horarios disponibles</h3>
+                    <div class="tags-horarios">
+                        <span class="tag">14:00</span>
+                        <span class="tag">18:30</span>
+                        <span class="tag">22:00</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="boton-comprar">Comprar entradas</button>
         </div>
-      </section>
-    </main>
 
+    </section>
+</main>
     <footer class="footer">
       <div class="footer-container">
         <p>&copy; 2026 Cine Aurora</p>
         <p class="footer-sub">Todos los derechos reservados</p>
       </div>
-    </footer>
+    </footer> 
   </body>
 </html>
