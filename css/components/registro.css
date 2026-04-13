@@ -14,29 +14,17 @@ body{
 }
 
 
-h1{
-    
+h1 {
     color: #ffffff;
 }
 
-.navegacion a {
-    text-decoration: none;
-    color: #ffffff ;
-    font-weight: bold;
-    transition: color 0.3s;
+.header-logo .foto {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
 }
 
-.navegacion a:hover {
-    color: #00b4d8;
-}
-
-header div:first-child {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.botonregistro:hover{
+.botonregistro:hover {
     scale: 1.5em;
 }
 
