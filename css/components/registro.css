@@ -19,9 +19,8 @@ header {
 
 
     display: flex;
-    justify-content: space-between; /* separa izquierda y derecha */
-    align-items: center; /* alinea verticalmente */
-
+    justify-content: space-between;
+    align-items: center; 
     padding: 10px 20px;
 }
 
@@ -38,7 +37,7 @@ h1{
 }
 
 .navegacion a:hover {
-    color: #00b4d8; /* para cuando le paso x arriba se ponga celeste */
+    color: #00b4d8;
 }
 
 header div:first-child {
@@ -51,9 +50,46 @@ header div:first-child {
     scale: 1.5em;
 }
 
+
 .form-group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom:15px;
     align-items: center
+}
+
+.form-group input,
+.form-group select {
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    background-color:#1f1f1f ;
+    color:#e50914 ;
+    margin-top: 5px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border: 2px solid #e50914 ;
+} 
+
+.botonregistro {
+    background-color: #e50914;
+    color: white;
+    width: 100%;
+    padding: 10px ;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
 }
